@@ -42,5 +42,5 @@ def delete_data(data_id):
     return jsonify({"message": "Data deleted"}), 200
 
 if __name__ == '__main__':
-    # print("This is the simple flask application")
+    print("This is the simple flask application")
     app.run(host="0.0.0.0", port=5000)
