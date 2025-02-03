@@ -7,7 +7,7 @@ def main():
     if not GITHUB_TOKEN:
         raise ValueError("GITHUB_TOKEN environment variable is not set")
     owner = 'KshitijKumar01'  # Replace with the repository owner's GitHub username
-    repo = 'capestone2'  # Replace with the repository name
+    repo = 'TeamCityPRPipeline'  # Replace with the repository name
     pr_number = 1  # Replace with the pull request number
  
     # Create an instance of the GitHubPRLabelsFetcher class
