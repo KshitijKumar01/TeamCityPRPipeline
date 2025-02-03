@@ -2,9 +2,9 @@ import requests
 import json
  
 # from Initialization.pr_details.Authentication import BearerAuth
-GITHUB_TOKEN = "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"
-GITHUB_REPO_NAME = "capestone2"
-GITHUB_REPO_OWNER = "KshitijKumar01"
+# GITHUB_TOKEN = "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"
+# GITHUB_REPO_NAME = "capestone2"
+# GITHUB_REPO_OWNER = "KshitijKumar01"
  
  
 class GitHubPRLabelsFetcher:
@@ -56,6 +56,6 @@ class GitHubPRLabelsFetcher:
             print("Error:", response.json())
             return None
  
-if __name__ == "__main__":
-    a = GitHubPRLabelsFetcher(GITHUB_REPO_OWNER, GITHUB_REPO_NAME, GITHUB_TOKEN)
-    a.fetch_and_print_labels("1")
+# if __name__ == "__main__":
+#     a = GitHubPRLabelsFetcher(GITHUB_REPO_OWNER, GITHUB_REPO_NAME, GITHUB_TOKEN)
+#     a.fetch_and_print_labels("1")
