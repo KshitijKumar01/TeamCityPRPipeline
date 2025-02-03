@@ -1,5 +1,5 @@
 import os
-from github_labels_fetcher2 import GitHubPRLabelsFetcher
+from fetch_label import GitHubPRLabelsFetcher
  
 def main():
     # GitHub repository details
