@@ -24,7 +24,7 @@ class GitHubPRLabelsFetcher:
     }
         url = 'https://api.github.com/repos/' + self.organisation + '/' + \
               self.repo_name + '/' + 'issues' + '/' + pr_number + '/' + 'labels'
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, verify=True)
         # print(response.json())
         return response
  
