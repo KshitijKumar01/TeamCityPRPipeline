@@ -5,7 +5,8 @@ import json
 # GITHUB_TOKEN = "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"
 # GITHUB_REPO_NAME = "capestone2"
 # GITHUB_REPO_OWNER = "KshitijKumar01"
- 
+
+# updated
  
 class GitHubPRLabelsFetcher:
     def __init__(self, organisation, repo_name, token):
