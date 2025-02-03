@@ -10,5 +10,5 @@ def update():
 
     if labels:
         for key, value in labels.items():
-            if key.lower() == "":
-                print(f"##teamcity[setParameter name='label1' value = '{value}']")
+            if key.lower() == "pmbd_prod":
+                print(f"##teamcity[setParameter name='PMBD_PROD' value = '{value}']")
